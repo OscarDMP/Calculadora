@@ -43,24 +43,26 @@
 .imagenbotom {
 background-image:url(verde.jpg);
 background-repeat:no-repeat;
-background-position:center;
-width:30px;
-height:30px 30px 30px 30px;
+background-position:center; 
+width:60px;
+height:60px 60px 60px 60px;
+//BUSCANDO COMO AMPLIAR EL TAMAÑO  todos 30 px
 }
 .especialimagen{
 
 background-image:url(verde.jpg);
 background-repeat:no-repeat;
 background-position:center;
-width:70px;
-height:30px 30px 30px 30;
+width:120px;
+height:60px 60px 60px 60px;
 }
 .imagenespecial{
+	//manipular los botones derechos
 background-image:url(verde.jpg);
 background-repeat:no-repeat;
 background-position:center;
-width:30px;
-height:70px;
+width:60px;
+height:120px 60px 60px 60px;
 
 
 }
@@ -145,11 +147,6 @@ num1=parseFloat(document.formi.ver.value);
 mostrado="";
 
 }
-
-
-
-
-
 </script>
 </head>
 
@@ -161,7 +158,7 @@ mostrado="";
 <th colspan="4" ><input type="text" value=0 style="text-align:right" readonly name="ver"/></th>
 <tr><b>
 <td width="34"><b><b>
-<input type="button" name="c" value="C" class="imagenbotom" style="text-align:center" onclick="nada()" />
+<input type="button" name="c" value="C" font size="55" class="imagenbotom" style="text-align:center" onclick="nada()" />
 </b></b></td>
 </b><td width="33"><input type="button" name="dividir" value="/" class="imagenbotom" style="text-align:center" onclick="operacion(4)" /></td><td width="33"><input type="button" name="multiplicar" value="*" class="imagenbotom" style="text-align:center" onclick="operacion(3)"/></td><td width="31"><input type="button" name="menos" value="-" class="imagenbotom" style="text-align:center" onclick="operacion(2)"/></td></tr>
 <tr><td><input type="button" name="siete" value=7 class="imagenbotom" style="text-align:center" onclick="mostrar(7)"/></td><td><input type="button" onclick="mostrar(8)"name="ocho" value="8" class="imagenbotom" style="text-align:center"/></td><td><input type="button" name="nueve" value="9" onclick="mostrar(9)" class="imagenbotom" style="text-align:center"/></td>
@@ -237,9 +234,11 @@ mostrado="";
 				</header>
                 <div>
                   <p>APLICACIONES MOVILES</p>
-                  <p>Profesor: Abelino Lobato G.</p>
+                  <p>Profesor: Abelino Lobato Gonzales</p>
                   <p>Alumno: Oscar Daniel Manzano Palacios</p>
                   <p>8 Semestre</p>
+                  <p>Ing. Informatica</p>
+                  <p>ITSZ</p>
                 </div>
                 <p>&nbsp;</p>
       <footer>
@@ -249,7 +248,7 @@ mostrado="";
 			</section>
         
 		<section id="footer">
-			<div class="copyright">
+			<div class="Copyright">
 				<ul class="menu">
 					<li>&copy; Untitled. All rights reserved.</li>
 					<li>Design: <a href="http://www.itsz.edu.mx/">ITSZ</a> <a href="https://plus.google.com/+OscarDanielManzanoPalacios/">Oscar Manzano</a> </li>
